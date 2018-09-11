@@ -48,7 +48,7 @@ Thus, maximizing the likelihood is the same as minimizing the cross-entropy of t
 
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/mle_map/eq-ce.jpg){: .align-center}
 
-If you don't know what cross-entropy is, check out my blog post about it here. Whatever we choose, the optimal θ will be the same but the values of the objective functions will be different. Usually, even Maximum Likelihood is converted to Minimizing the negative log-likelihood (NLL), log to prevent underflow. So, it’s either minimizing NLL or the cross-entropy. 
+If you don't know what cross-entropy is, check out my blog post about it [here](https://h1man5hu.github.io/probability%20and%20information%20theory/kl-divergenece-cross-entropy/). Whatever we choose, the optimal θ will be the same but the values of the objective functions will be different. Usually, even Maximum Likelihood is converted to Minimizing the negative log-likelihood (NLL), log to prevent underflow. So, it’s either minimizing NLL or the cross-entropy. 
 MLE, thus, can be seen as a principle to search for good estimators, having low bias and variance, bringing the model's distribution closer to the true data generating process distribution by minimizing the cross-entropy between them.
 
 
